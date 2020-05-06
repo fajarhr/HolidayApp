@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/logo"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:src="@drawable/human"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jangan tunggu kaya untuk liburan"
+        android:textSize="16dp"
+        android:textColor="#22aab6"
+        android:layout_gravity="center"
+        android:textStyle="italic"
+        android:fontFamily="@font/gilroylight"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="berliburlah agar dirimu merasa kaya."
+        android:textSize="16dp"
+        android:textColor="#22aab6"
+        android:textStyle="italic"
+        android:fontFamily="@font/gilroylight"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click here to continue"
+        android:background="@null"
+        android:textSize="14dp"
+        android:layout_marginTop="350dp"
+        android:layout_gravity="center"
+        android:textColor="#22aab6"
+        android:onClick="click"/>
+
+</LinearLayout>

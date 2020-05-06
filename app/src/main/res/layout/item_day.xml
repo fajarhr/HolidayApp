@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemday"
+    android:layout_width="400dp"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tgl"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:fontFamily="@font/gilroybold"
+            android:text="01"
+            android:textColor="#22aab6"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/hari"
+            android:text="Hari Raya Idul Fitri"
+            android:textSize="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
