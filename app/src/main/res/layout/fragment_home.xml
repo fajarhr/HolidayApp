@@ -35,11 +35,12 @@
         android:id="@+id/cv_upcomming"
         android:layout_width="430dp"
         android:layout_height="400dp"
-        app:cardCornerRadius="4dp"
-        app:cardElevation="4dp"
+        app:cardCornerRadius="7dp"
+        app:cardElevation="10dp"
         android:layout_marginTop="30dp"
         android:layout_marginRight="30dp"
         android:layout_marginLeft="30dp"
+        android:outlineSpotShadowColor="#22aab6"
         android:background="@drawable/bg">
 
         <RelativeLayout
@@ -127,8 +128,9 @@
                 android:orientation="horizontal">
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cv_januari"
-                    app:cardCornerRadius="4dp"
+                    app:cardCornerRadius="7dp"
                     app:cardElevation="4dp"
+                    android:outlineSpotShadowColor="#22aab6"
                     android:layout_width="200dp"
                     android:layout_height="100dp"
                     android:layout_marginLeft="30dp">
@@ -156,8 +158,9 @@
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cv_february"
-                    app:cardCornerRadius="4dp"
+                    app:cardCornerRadius="7dp"
                     app:cardElevation="4dp"
+                    android:outlineSpotShadowColor="#22aab6"
                     android:layout_width="200dp"
                     android:layout_height="100dp"
                     android:layout_marginLeft="30dp">
@@ -190,8 +193,9 @@
                 android:orientation="horizontal">
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cv_march"
-                    app:cardCornerRadius="4dp"
+                    app:cardCornerRadius="7dp"
                     app:cardElevation="4dp"
+                    android:outlineSpotShadowColor="#22aab6"
                     android:layout_width="200dp"
                     android:layout_height="100dp"
                     android:layout_marginTop="20dp"
@@ -220,8 +224,9 @@
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cv_april"
-                    app:cardCornerRadius="4dp"
+                    app:cardCornerRadius="7dp"
                     app:cardElevation="4dp"
+                    android:outlineSpotShadowColor="#22aab6"
                     android:layout_width="200dp"
                     android:layout_height="100dp"
                     android:layout_marginTop="20dp"
@@ -255,8 +260,9 @@
                 android:orientation="horizontal">
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cv_may"
-                    app:cardCornerRadius="4dp"
+                    app:cardCornerRadius="7dp"
                     app:cardElevation="4dp"
+                    android:outlineSpotShadowColor="#22aab6"
                     android:layout_width="200dp"
                     android:layout_height="100dp"
                     android:layout_marginTop="20dp"
@@ -285,8 +291,9 @@
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cv_june"
-                    app:cardCornerRadius="4dp"
+                    app:cardCornerRadius="7dp"
                     app:cardElevation="4dp"
+                    android:outlineSpotShadowColor="#22aab6"
                     android:layout_width="200dp"
                     android:layout_height="100dp"
                     android:layout_marginTop="20dp"
@@ -320,8 +327,9 @@
                 android:orientation="horizontal">
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cv_july"
-                    app:cardCornerRadius="4dp"
+                    app:cardCornerRadius="7dp"
                     app:cardElevation="4dp"
+                    android:outlineSpotShadowColor="#22aab6"
                     android:layout_width="200dp"
                     android:layout_height="100dp"
                     android:layout_marginTop="20dp"
@@ -350,8 +358,9 @@
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cv_august"
-                    app:cardCornerRadius="4dp"
+                    app:cardCornerRadius="7dp"
                     app:cardElevation="4dp"
+                    android:outlineSpotShadowColor="#22aab6"
                     android:layout_width="200dp"
                     android:layout_height="100dp"
                     android:layout_marginTop="20dp"
@@ -385,8 +394,9 @@
                 android:orientation="horizontal">
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cv_september"
-                    app:cardCornerRadius="4dp"
+                    app:cardCornerRadius="7dp"
                     app:cardElevation="4dp"
+                    android:outlineSpotShadowColor="#22aab6"
                     android:layout_width="200dp"
                     android:layout_height="100dp"
                     android:layout_marginTop="20dp"
@@ -415,8 +425,9 @@
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cv_october"
-                    app:cardCornerRadius="4dp"
+                    app:cardCornerRadius="7dp"
                     app:cardElevation="4dp"
+                    android:outlineSpotShadowColor="#22aab6"
                     android:layout_width="200dp"
                     android:layout_height="100dp"
                     android:layout_marginTop="20dp"
@@ -450,8 +461,9 @@
                 android:orientation="horizontal">
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cv_november"
-                    app:cardCornerRadius="4dp"
+                    app:cardCornerRadius="7dp"
                     app:cardElevation="4dp"
+                    android:outlineSpotShadowColor="#22aab6"
                     android:layout_width="200dp"
                     android:layout_height="100dp"
                     android:layout_marginTop="20dp"
@@ -481,8 +493,9 @@
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cv_december"
-                    app:cardCornerRadius="4dp"
+                    app:cardCornerRadius="7dp"
                     app:cardElevation="4dp"
+                    android:outlineSpotShadowColor="#22aab6"
                     android:layout_width="200dp"
                     android:layout_height="100dp"
                     android:layout_marginTop="20dp"
