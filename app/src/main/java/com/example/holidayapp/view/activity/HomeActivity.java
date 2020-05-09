@@ -1,4 +1,4 @@
-package com.example.holidayapp;
+package com.example.holidayapp.view.activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -6,9 +6,10 @@ import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Switch;
 
+import com.example.holidayapp.R;
+import com.example.holidayapp.view.fragment.HomeFragment;
+import com.example.holidayapp.view.fragment.SaveFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class HomeActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
